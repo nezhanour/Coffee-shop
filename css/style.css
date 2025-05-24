@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #7f5539;
+    height: 100vh;
+    background-image: url(../img/pexels-tonywuphotography-4301517.jpg);
+    background-size: cover;
+}
+
+main {
+    width: 75%;
+    margin: 2rem auto;
+    /* padding: 1rem; */
+    background-color: #ddb892;
+    text-align: center;
+}
+
+.header {
+    padding: 1rem;
+}
+
+.header__h1 {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    color: #774936;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__nav a,
+.header__nav a:visited {
+    text-decoration: none;
+    color: #583101;
+    padding: 0.5rem;
+}
+
+.header__nav a:hover,
+.header__nav a:active {
+    color: #7f5539;
+    text-decoration: underline;
+}
+
+.header__nav a:last-child {
+    background-color: #b08968;
+}
